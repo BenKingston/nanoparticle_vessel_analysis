@@ -8,7 +8,7 @@ tissuetrim.m is used to define tissue boundaries and remove the outer ~30 um of 
 
 
 
-This software license is the 2-clause BSD license plus clause a third clause that prohibits redistribution and use for commercial purposes without further permission.
+This software license is the 2-clause BSD license plus  a third clause that prohibits redistribution and use for commercial purposes without further permission.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
