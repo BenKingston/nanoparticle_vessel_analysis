@@ -5,6 +5,11 @@ The NP_macro_dist_analysis.m function requires 3D optical images (multipage tiff
 
 tissuetrim.m is used to define tissue boundaries and remove the outer ~30 um of tissue in order to exclude light scattering and autoflourescent artifacts at the tissue edge. smartthresh.m is used to segment blood vessels. Both tissuetrim.m and smartthresh.m are required to run the NP_Macro_dist_analysis.m function. Example tumour an liver images can be found in the Example_data folder. 
 
+
+
+
+This software license is the 2-clause BSD license plus clause a third clause that prohibits redistribution and use for commercial purposes without further permission.
+
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
 Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
