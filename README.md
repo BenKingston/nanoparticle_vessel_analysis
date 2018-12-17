@@ -3,7 +3,7 @@ MATLAB code for Ouyang et al. - Dose determines nanoparticle delivery. Quantific
 
 The NP_macro_dist_analysis.m function requires 3D optical images (multipage tiff files or similar) of nuclei, blood vessels, macrophages and nanoparticles, the pixel size in um, a results directory and a filename for the output .csv file.
 
-tissuetrim.m is used to define tissue boundaries and remove the outer ~30 um of tissue in order to exclude light scattering and autoflourescent artifacts at the tissue edge. smartthresh.m is used to segment blood vessels. Both tissuetrim.m and smartthresh.m are required to run the NP_Macro_dist_analysis.m function. Example tumour an liver images can be found in the Example_data folder. 
+tissuetrim.m is used to define tissue boundaries and remove the outer ~30 um of tissue in order to exclude light scattering and autoflourescent artifacts at the tissue edge. smartthresh.m is used to segment blood vessels. Both tissuetrim.m and smartthresh.m are required to run the NP_Macro_dist_analysis.m function.
 
 
 
