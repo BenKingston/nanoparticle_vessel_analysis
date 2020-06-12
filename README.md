@@ -1,5 +1,5 @@
 # Nanoparticle intensity vs distance from blood vessels
-MATLAB code for Ouyang et al. (2020) - A dose threshold to enhance nanoparticle tumour delivery. Quantification of nanoparticle concentration as a function of distance from blood vessels from 3D light-sheet microscopy images. 
+MATLAB code for Ouyang et al. (2020) - The dose threshold for nanoparticle tumour delivery. Quantification of nanoparticle concentration as a function of distance from blood vessels from 3D light-sheet microscopy images. 
 
 NP_macro_dist_analysis.m function requires 3D optical images (multipage tiff files or similar) of segmented blood vessels and nanoparticles, the pixel size in um, a results directory and a filename for the output .csv file. 
 
