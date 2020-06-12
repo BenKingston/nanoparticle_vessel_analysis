@@ -1,7 +1,7 @@
-# Macrophage_loc_nanoparticle
-MATLAB code for Ouyang et al. - Dose determines nanoparticle delivery. Quantification of nanoparticle concentration in macrophages as a function of distance from blood vessels from 3D light-sheet microscopy images. 
+# Nanoparticle intensity vs distance from blood vessels
+MATLAB code for Ouyang et al. (2020) - A dose threshold to enhance nanoparticle tumour delivery. Quantification of nanoparticle concentration as a function of distance from blood vessels from 3D light-sheet microscopy images. 
 
-The NP_macro_dist_analysis.m function requires 3D optical images (multipage tiff files or similar) of nuclei, blood vessels, macrophages and nanoparticles, the pixel size in um, a results directory and a filename for the output .csv file.
+The NP_macro_dist_analysis.m function requires 3D optical images (multipage tiff files or similar) of blood vessels, and nanoparticles, the pixel size in um, a results directory and a filename for the output .csv file.
 
 tissuetrim.m is used to define tissue boundaries and remove the outer ~30 um of tissue in order to exclude light scattering and autoflourescent artifacts at the tissue edge. smartthresh.m is used to segment blood vessels. Both tissuetrim.m and smartthresh.m are required to run the NP_Macro_dist_analysis.m function.
 
