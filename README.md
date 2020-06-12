@@ -3,7 +3,7 @@ MATLAB code for Ouyang et al. (2020) - A dose threshold to enhance nanoparticle 
 
 NP_macro_dist_analysis.m function requires 3D optical images (multipage tiff files or similar) of segmented blood vessels and nanoparticles, the pixel size in um, a results directory and a filename for the output .csv file. 
 
-In this work blood vessels work segmented using Ilasik (https://www.ilastik.org/ or https://github.com/ilastik). 
+In this work blood vessels were segmented using Ilasik (https://www.ilastik.org/ or https://github.com/ilastik). 
 
 ilastik: interactive machine learning for (bio)image analysis
 Stuart Berg, Dominik Kutra, Thorben Kroeger, Christoph N. Straehle, Bernhard X. Kausler, Carsten Haubold, Martin Schiegg, Janez Ales, Thorsten Beier, Markus Rudy, Kemal Eren, Jaime I Cervantes, Buote Xu, Fynn Beuttenmueller, Adrian Wolny, Chong Zhang, Ullrich Koethe, Fred A. Hamprecht & Anna Kreshuk
