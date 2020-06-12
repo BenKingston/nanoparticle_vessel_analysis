@@ -1,9 +1,18 @@
 # Nanoparticle intensity vs distance from blood vessels
 MATLAB code for Ouyang et al. (2020) - A dose threshold to enhance nanoparticle tumour delivery. Quantification of nanoparticle concentration as a function of distance from blood vessels from 3D light-sheet microscopy images. 
 
-The NP_macro_dist_analysis.m function requires 3D optical images (multipage tiff files or similar) of blood vessels, and nanoparticles, the pixel size in um, a results directory and a filename for the output .csv file.
+NP_macro_dist_analysis.m function requires 3D optical images (multipage tiff files or similar) of segmented blood vessels and nanoparticles, the pixel size in um, a results directory and a filename for the output .csv file. 
 
-tissuetrim.m is used to define tissue boundaries and remove the outer ~30 um of tissue in order to exclude light scattering and autoflourescent artifacts at the tissue edge. smartthresh.m is used to segment blood vessels. Both tissuetrim.m and smartthresh.m are required to run the NP_Macro_dist_analysis.m function.
+In this work blood vessels work segmented using Ilasik (https://www.ilastik.org/ or https://github.com/ilastik). 
+
+ilastik: interactive machine learning for (bio)image analysis
+Stuart Berg, Dominik Kutra, Thorben Kroeger, Christoph N. Straehle, Bernhard X. Kausler, Carsten Haubold, Martin Schiegg, Janez Ales, Thorsten Beier, Markus Rudy, Kemal Eren, Jaime I Cervantes, Buote Xu, Fynn Beuttenmueller, Adrian Wolny, Chong Zhang, Ullrich Koethe, Fred A. Hamprecht & Anna Kreshuk
+in: Nature Methods, (2019)
+
+
+
+
+
 
 
 
